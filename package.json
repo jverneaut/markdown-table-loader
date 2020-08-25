@@ -1,0 +1,24 @@
+{
+  "name": "markdown-table-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jverneaut/markdown-table-loader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jverneaut/markdown-table-loader/issues"
+  },
+  "homepage": "https://github.com/jverneaut/markdown-table-loader#readme",
+  "dependencies": {
+    "jest": "^26.4.2"
+  }
+}
