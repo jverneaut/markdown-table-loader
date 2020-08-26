@@ -1,7 +1,7 @@
-const emptyLinesFilter = line => line.trim() !== '';
-
+// Matches '| ' at beginning of line or ' |' or '|' at start and end of line
 const delimiter = /^\|\s|\s\||^\|$/g;
 
+// Given an array of [pattern, patter, a, b, c, pattern, d, e, patter, pattern] returns [a, b, c, patter, d, e]
 const trimArray = (array, pattern) => {
   const temp = Array.from(array);
 
