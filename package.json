@@ -5,15 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "dev": "jest --watch"
+    "dev": "jest --watch",
+    "postversion": "git push && git push --tags && npm publish"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jverneaut/markdown-table-loader.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Julien Verneaut <jverneaut@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jverneaut/markdown-table-loader/issues"
   },
