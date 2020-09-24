@@ -11,7 +11,7 @@ module.exports = {
     rules: [
       {
         test: /\.table\.md$/,
-        use: '../index.js',
+        use: 'markdown-table-loader',
       },
       {
         test: /\.js$/,
